@@ -1,0 +1,30 @@
+spring:
+     mail:
+      host: smtp.gmail.com
+      port: 587
+      username: darshanuprade22@gmail.com 
+      password: qlogcpjhsqvmwxak 
+      properties:
+         mail:
+          smtp:
+            auth: true
+            starttls:
+              enable: true 
+     datasource:
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          url: jdbc:mysql://localhost:3306/mysqldb
+          username: root
+          password: java
+#          driver-class-name: oracle.jdbc.driver.OracleDriver
+#          url: jdbc:oracle:thin:@localhost:1521:xe
+#          username: darshan
+#          password: java
+     jpa: 
+      hibernate:
+       ddl-auto: update
+      show-sql: true
+      
+      
+     
+      
+     
